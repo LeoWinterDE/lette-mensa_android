@@ -1,0 +1,19 @@
+1  Konservierungsmittel
+2  Antioxidationsmittel
+3  Farbstoff
+4  Geschmacksverstärker, u.a. Natriumglutamat
+5  Schwefel
+6  Phosphat
+7  geschwärzt
+8  gewachst
+9  Süßungsmittel, u.a. Saccarin, Cyclamat, Aspartam
+10 enthält eine Phenylalaninquelle
+11 Säuerungsmittel
+12 Hühnereiweiß
+13 Jodsalz
+14 Nitritpökelsalz
+15 Milcheiweiß ( Kuhmilch und Kuhmilcherzeugnisse)
+16 Hefeextrakt
+17 Aroma
+18 Zuckerarten und /oder Süßungsmittel
+19 Gluten

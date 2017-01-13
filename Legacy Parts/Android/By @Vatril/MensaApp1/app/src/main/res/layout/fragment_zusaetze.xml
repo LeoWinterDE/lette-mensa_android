@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_material_light"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundedcorners"
+            android:padding="1dp" >
+
+            <TextView
+                android:id="@+id/zusaetzeTitel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/blueroundedcornersonlytop"
+                android:gravity="center_horizontal"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="Zusätze"
+                android:textColor="@color/primary_text_default_material_dark"
+                android:textSize="21sp" />
+
+            <TextView
+                android:id="@+id/zusaetze"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/zusaetzeTitel"
+                android:background="@drawable/roundedcornersonlybottom"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:textColor="@color/abc_primary_text_material_light" >
+            </TextView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/roundedcorners"
+            android:padding="1dp" >
+
+            <TextView
+                android:id="@+id/allergeneTitel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/blueroundedcornersonlytop"
+                android:gravity="center_horizontal"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="Allergene"
+                android:textColor="@color/primary_text_default_material_dark"
+                android:textSize="21sp" />
+
+            <TextView
+                android:id="@+id/allergene"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/allergeneTitel"
+                android:background="@drawable/roundedcornersonlybottom"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:textColor="@color/abc_primary_text_material_light" >
+            </TextView>
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

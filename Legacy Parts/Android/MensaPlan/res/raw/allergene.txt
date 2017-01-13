@@ -1,0 +1,15 @@
+20 Glutenhaltiges Getreide/ Erzeugnisse ( Weizen, Roggen, Gerste, Hafer, Dinkel)
+21 Soja und Sojaerzeugnisse
+22 Sellerie und Sellerieerzeugnisse
+23 Senf und Senfsaaten
+24 Sesamsaaten und Sesamsamenerzeugnisse
+25 Lupine und Lupinenerzeugnisse
+26 Erdnüsse und Erdnusserzeugnisse
+27 Fisch und Fischerzeugnisse
+28 Krebstiere und Krebserzeugnisse u.a. Krabben, Garnelen, Hummer
+29 Weichtiere und Weichtiererzeugnisse u.a. Muscheln, Schnecken
+30 Schalenfrüchte und Schalenfruchterzeugnisse(z.B. Mandeln, Haselnüsse)
+31 Eier und Eiererzeugnisse 
+32 Milch und Milcherzeugnisse (incl. Lactose)
+33 Schwefeldioxid und Sulfite
+Die Schale von Zitrusfrüchten und Bananen wird mit Thiabendazol behandelt

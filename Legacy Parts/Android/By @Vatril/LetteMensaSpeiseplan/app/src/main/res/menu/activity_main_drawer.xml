@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="@string/normalPlan"
+            android:id="@+id/plan"
+            android:icon="@drawable/icon_food">
+        </item>
+
+        <item android:title="@string/diatPlan"
+            android:id="@+id/diatplan"
+            android:icon="@drawable/icon_carrot">
+        </item>
+
+        <item android:title="@string/aspeisen"
+            android:id="@+id/speisen"
+            android:icon="@drawable/ic_restaurant">
+        </item>
+
+
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item android:title="@string/action_settings" android:id="@+id/settings" android:icon="@drawable/ic_settings">
+            </item>
+            <item android:title="@string/help" android:id="@+id/help" android:icon="@drawable/ic_help">
+            </item>
+        </menu>
+    </item>
+
+</menu>

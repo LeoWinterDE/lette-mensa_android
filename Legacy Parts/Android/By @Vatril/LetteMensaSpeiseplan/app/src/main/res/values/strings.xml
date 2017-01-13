@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Mensa Speiseplan</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Einstellungen</string>
+
+
+    <!-- DrawerStrings -->
+
+    <string name="normalPlan">Speiseplan</string>
+    <string name="diatPlan">Diät Speiseplan</string>
+    <string name="aspeisen">Alle Speisen</string>
+
+    <string name="help">Hilfe</string>
+
+    <!-- Settings -->
+</resources>

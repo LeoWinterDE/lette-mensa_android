@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <RelativeLayout
+            android:id="@+id/keineSpeisen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/roundedcorners"
+            android:padding="1dp"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="@string/nodata"
+                android:textColor="@color/primary_text_default_material_light"
+                android:textSize="32sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/vorspeisenWrap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundedcorners"
+            android:padding="1dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/vorspeisenTitel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/blueroundedcornersonlytop"
+                android:gravity="center_horizontal"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="Vorspeisen"
+                android:textColor="@color/primary_text_default_material_dark"
+                android:textSize="21sp" />
+
+            <LinearLayout
+                android:id="@+id/vorspeisen"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/vorspeisenTitel"
+                android:background="@drawable/roundedcornersonlybottom"
+                android:orientation="vertical"
+                android:padding="10dp"></LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/vegetarischWrap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/roundedcorners"
+            android:padding="1dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/vegetarischTitel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/blueroundedcornersonlytop"
+                android:gravity="center_horizontal"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="Vegetarisch"
+                android:textColor="@color/primary_text_default_material_dark"
+                android:textSize="21sp" />
+
+            <LinearLayout
+                android:id="@+id/vegetarisch"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/vegetarischTitel"
+                android:background="@drawable/roundedcornersonlybottom"
+                android:orientation="vertical"
+                android:padding="10dp"></LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/vollkostWrap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/roundedcorners"
+            android:padding="1dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/vollkostTitel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/blueroundedcornersonlytop"
+                android:gravity="center_horizontal"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="Vollkost"
+                android:textColor="@color/primary_text_default_material_dark"
+                android:textSize="21sp" />
+
+            <LinearLayout
+                android:id="@+id/vollkost"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/vollkostTitel"
+                android:background="@drawable/roundedcornersonlybottom"
+                android:orientation="vertical"
+                android:padding="10dp"></LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/beilagenWrap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/roundedcorners"
+            android:padding="1dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/beilagenTitel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/blueroundedcornersonlytop"
+                android:gravity="center_horizontal"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="Beilagen"
+                android:textColor="@color/primary_text_default_material_dark"
+                android:textSize="21sp" />
+
+            <LinearLayout
+                android:id="@+id/beilagen"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/beilagenTitel"
+                android:background="@drawable/roundedcornersonlybottom"
+                android:orientation="vertical"
+                android:padding="10dp"></LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/dessertWrap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/roundedcorners"
+            android:padding="1dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/dessertTitel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/blueroundedcornersonlytop"
+                android:gravity="center_horizontal"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="Dessert"
+                android:textColor="@color/primary_text_default_material_dark"
+                android:textSize="21sp" />
+
+            <LinearLayout
+                android:id="@+id/dessert"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dessertTitel"
+                android:background="@drawable/roundedcornersonlybottom"
+                android:orientation="vertical"
+                android:padding="10dp"></LinearLayout>
+        </RelativeLayout>
+
+        <!-- Diatspeiseplan -->
+
+        <RelativeLayout
+            android:id="@+id/diätVorspeisenWrap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/roundedcorners"
+            android:padding="1dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/diätVorspeisenTitel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/greenroundedcornersonlytop"
+                android:gravity="center_horizontal"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="Diät Vorspeisen"
+                android:textColor="@color/primary_text_default_material_dark"
+                android:textSize="21sp" />
+
+            <LinearLayout
+                android:id="@+id/diätVorspeisen"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/diätVorspeisenTitel"
+                android:background="@drawable/roundedcornersonlybottom"
+                android:orientation="vertical"
+                android:padding="10dp"></LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/gemüsetellerWrap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/roundedcorners"
+            android:padding="1dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/gemüsetellerTitel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/greenroundedcornersonlytop"
+                android:gravity="center_horizontal"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="Gemüseteller"
+                android:textColor="@color/primary_text_default_material_dark"
+                android:textSize="21sp" />
+
+            <LinearLayout
+                android:id="@+id/gemüseteller"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/gemüsetellerTitel"
+                android:background="@drawable/roundedcornersonlybottom"
+                android:orientation="vertical"
+                android:padding="10dp"></LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/diätVollkostWrap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/roundedcorners"
+            android:padding="1dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/diätVollkostTitel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/greenroundedcornersonlytop"
+                android:gravity="center_horizontal"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="Diät Vollkost"
+                android:textColor="@color/primary_text_default_material_dark"
+                android:textSize="21sp" />
+
+            <LinearLayout
+                android:id="@+id/diätVollkost"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/diätVollkostTitel"
+                android:background="@drawable/roundedcornersonlybottom"
+                android:orientation="vertical"
+                android:padding="10dp"></LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/diätBeilagenWrap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/roundedcorners"
+            android:padding="1dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/diätBeilagenTitel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/greenroundedcornersonlytop"
+                android:gravity="center_horizontal"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="Diät Beilagen"
+                android:textColor="@color/primary_text_default_material_dark"
+                android:textSize="21sp" />
+
+            <LinearLayout
+                android:id="@+id/diätBeilagen"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/diätBeilagenTitel"
+                android:background="@drawable/roundedcornersonlybottom"
+                android:orientation="vertical"
+                android:padding="10dp"></LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/diätDessertWrap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/roundedcorners"
+            android:padding="1dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/diätDessertTitel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/greenroundedcornersonlytop"
+                android:gravity="center_horizontal"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="Diät Dessert"
+                android:textColor="@color/primary_text_default_material_dark"
+                android:textSize="21sp" />
+
+            <LinearLayout
+                android:id="@+id/diätDessert"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/diätDessertTitel"
+                android:background="@drawable/roundedcornersonlybottom"
+                android:orientation="vertical"
+                android:padding="10dp"></LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lette MensaApp</string>
+    <string name="drawer_open">Menu opened</string>
+    <string name="drawer_close">Menu closed</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_readme">Readme</string>
+    <string name="firstLaunch">Willkommen in der Lette MensaApp.
+        \n\nDiese APP ist ausschließlich für Mitarbeiter und SchülerInnen des Berufsausbildungszentrums des Lette-Vereins in Berlin gedacht.
+        Außenstehenden ist die Teilnahme am Mittagstisch nicht gestattet.
+        \n\nMit dem Drücken des OK-Buttons stimmen Sie zu.</string>
+    <string name="impressum">Berufsausbildungszentrum Lette-Verein
+      	    \nStiftung des öffentlichen Rechts
+      	    \nDie Direktorin, Petra Madyda
+      	    \nViktoria-Luise-Platz 6
+      	    \nD-10777 Berlin
+      	    \n\nTelefon <a href="tel:030219940">(030) 21994-0</a>
+      	    \nMail: <a href="mailto:info@lette-verein.de">info@lette-verein.de</a>
+			\n\n<i>App Entwicklung:</i>
+			\nMarcel Henze
+			\nTommy Schmidt
+			\nWassilij Koch</string>
+</resources>
